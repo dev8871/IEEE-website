@@ -1,0 +1,143 @@
+
+header{
+    background-color: black;
+}
+.navigation{
+    width: 50vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 35% 10% 10% 10% 13% 10% 17%;
+    column-gap: 5px;
+     /* padding: auto; */
+    padding: 0;
+    border: 0;
+    outline: 0;
+    top: 0;
+}
+.heading{
+   height: 50px;
+   /* margin-top: 10px; */
+   margin-bottom: 10px;
+}
+.head{
+   height: 50px;
+   margin-top: 10px;
+   /* margin-bottom: 10px; */
+   text-align: center;
+   font-size: large;
+   font-weight: bold;
+}
+.team{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
+   flex-direction: row;
+   width: 80%;
+   margin: auto;
+   
+}
+.area{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: 150px;
+   height: 300px;
+   gap: 2px;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(245, 242, 242);
+   margin: 10px;
+   /* border: 1px solid black; */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.teamimg img{
+   width: 130px;
+   height: 150px;
+   border-radius: 50%;
+}
+.text{
+   background-color: black;
+   width: 130px;
+   height: auto;
+   border-radius: 5%;
+}
+.name{
+   height: auto;
+   width: 130px;
+   /* background-color: black; */
+}
+.post{
+   height: auto;
+   width: 130px;
+   /* background-color: black; */
+   
+   
+
+}
+.name h5{
+   color: white;
+   text-align: center;
+}
+.post h6{
+   color: white;
+   text-align: center;
+}
+@media(max-width: 600px){
+   .team{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: space-between;
+      flex-direction: row;
+      width: 90%;
+      margin: auto;
+      
+   }
+   .area{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 88%;
+      height: 300px;
+      gap: 2px;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(245, 242, 242);
+      margin: 10px;
+      /* border: 1px solid black; */
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   }
+   /* .teamimg {
+      width: 87%;
+      height: 150px;
+      align-self: center;
+      padding-left: 15px;
+   } */
+   .teamimg img{
+      width: 87%;
+      height: 150px;
+      align-self: center;
+      padding-left: 15px;
+   }
+   .text{
+      background-color: black;
+      width: 87%;
+      height: auto;
+   }
+   .name{
+      height: auto;
+      width: 87%;
+      padding-left: 15px;
+      /* background-color: black; */
+   }
+   .post{
+      height: auto;
+      width: 87%;
+      padding-left: 15px;
+      /* background-color: black; */
+      
+      
+   
+   }
+}
