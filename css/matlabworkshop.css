@@ -26,17 +26,29 @@
 #bold{
     font-weight: bold;
 }
+#heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: rgb(18, 37, 106);
+    padding: 7px 13px;
+    color: white;
+    border-radius: 5px;
+}
 #greytext{
     color: rgb(177, 177, 177);
     font-size: 0.7rem;
     font-weight: 400;
     letter-spacing: 0.5px;
 }
+.recentEventsToggle{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 2fr 2fr ;
+}
 .nextbutton{
-    margin-left: auto;
-    margin-right: 10vw;
     font-size: 0.8rem;
     padding: 7px 13px;
+    text-align: center;
     background: rgb(18, 37, 106);
     color: white;
     border-radius: 5px;
@@ -49,11 +61,13 @@
     background: white;
     color: rgb(18, 37, 106);
 }
+
 @media (max-width:1100px) {
     .workshopimage img{
         width: 65vw;
         height: 39vw;
     }
+    
 }
 @media (max-width:800px) {
     .workshopimage img{
@@ -61,9 +75,20 @@
         height: 42vw;
     }
 }
-@media (max-width:500px) {
+
+@media (max-width:670px) {
+    .recentEventsToggle{
+        grid-column-gap: 30px;
+    }
+    
+}
+@media (max-width:510px) {
     .workshopimage img{
         width: 80vw;
         height: 48vw;
     }
+    .recentEventsToggle{
+        grid-column-gap: 10px;
+    }
+    
 }

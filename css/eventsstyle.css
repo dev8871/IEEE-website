@@ -1,0 +1,27 @@
+.calendar {
+  display: grid;
+  justify-items: center;
+  margin-top: 5px;
+}
+main h1{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+main iframe {
+  width: 80vw;
+  height: 90vh;
+}
+@media (max-width:750px) {
+  main iframe{
+    width: 90vw;
+    height: 80vh;
+  }
+}
+@media (max-width:500px) {
+  main iframe{
+    width: 95vw;
+    height: 70vh;
+  }
+}

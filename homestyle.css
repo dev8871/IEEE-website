@@ -372,10 +372,14 @@ a{
     align-items: center;
 }
 h5{
+    font-size: 1.7rem;
     color: white;
-    font-weight: 400;
+    font-weight: bold;
     font-family:'Prompt', sans-serif ;
-
+    letter-spacing: 1px;
+}
+.col2{
+    text-align: center;
 }
 .col1{
     margin-top: 15px;
