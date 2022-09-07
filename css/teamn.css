@@ -1,37 +1,51 @@
 
-.header{
+header{
     background-color: black;
-    /* position: fixed; */
-    position: sticky;
-    top: 0;
 }
-.navigation{
-    width: 50vw;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 35% 10% 10% 10% 13% 10% 17%;
-    column-gap: 5px;
-     /* padding: auto; */
-    padding: 0;
-    border: 0;
-    outline: 0;
-    top: 0;
-    /* position: fixed; */
+nav{
+   background: rgb(18, 37, 106);
+   height: 11vh;
+   display: inline-block;
 }
-.heading{
-   /* height: 50px; */
-   /* margin-top: 10px; */
-   margin-bottom: 10px;
-   /* background-color: rgb(18, 37, 106) ; */
+label.logo{
+   color: white;
+   font-size: 31px;
+   line-height: 80px;
+   padding-left: 3%;
+   font-family: 'Varela Round', sans-serif;
+   font-weight: bold;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.container {
+   /* border: solid 1px #ff0000; */
+   zoom: 1; /* IE6&7 */
+}
+
+
+.container:before,
+.container:after {
+   content: "";
+   display: table;
+}
+
+.container:after {
+   clear: both;
 }
 .head{
+   /* display: table-cell; */
    height: 50px;
-   margin-top: 10px;
-   /* margin-bottom: 10px; */
+   padding-top: 20px;
+   
    text-align: center;
+   /* vertical-align: middle; */
    font-size: large;
    font-weight: bold;
+   text-decoration: underline;
+   /* border-bottom: 1px solid rgb(18, 37, 106) ; */
+
 }
+
 .team{
    display: flex;
    flex-wrap: wrap;
@@ -51,7 +65,7 @@
    gap: 2px;
    justify-content: center;
    align-items: center;
-   background-color: rgb(245, 238, 238);
+   background-color: rgb(245, 242, 242);
    margin: 10px;
    /* border: 1px solid black; */
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -60,8 +74,6 @@
    width: 130px;
    height: 150px;
    border-radius: 50%;
-   border: 1px solid;
-   border-color: rgb(18, 37, 106);
 }
 .text{
    background-color: rgb(18, 37, 106);
@@ -82,12 +94,14 @@
    
 
 }
-.name h5{
+.name p{
    color: white;
+   font-size: 0.75em;
    text-align: center;
 }
-.post h6{
+.post p{
    color: white;
+   font-size: 0.63em;
    text-align: center;
 }
 @media(max-width: 600px){

@@ -1,0 +1,170 @@
+/* navigation styling */
+nav{
+    background: rgb(18, 37, 106);
+    height: 11vh;
+    display: inline-block;
+}
+label.logo{
+    color: white;
+    font-size: 31px;
+    line-height: 80px;
+    padding-left: 3%;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+@media (max-width:927px){
+    
+    ul{
+        margin-top: 10px;
+        background:rgb(18, 37, 106);
+        
+        
+    }
+    
+   
+    nav ul li a{
+        color:white;
+        
+    }
+    nav a:hover{
+        background-color:white ;
+        color:rgb(18, 37, 106) ;
+    }
+}
+
+/* main section styling */
+body{
+    background: rgb(251, 252, 252);
+}
+.chaptersection{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+main h1{
+    margin: 30px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(18, 37, 106);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.chapterfirst h2:hover{
+    background-color: rgb(33, 48, 104);
+    transform: scale(1.02);
+}
+.chapterbox{
+    display: grid;
+
+    justify-items: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 3px;
+    text-align: center;
+    background: white;
+    margin-bottom: 60px;
+}
+.chapterbox i{
+    color: rgb(18, 37, 106);
+    font-size: 50px;
+    margin-top: 20%;
+}
+.chapterboxone{
+    display: grid;
+    margin-bottom: 60px;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 3px;
+    text-align: center;
+    background: white;
+}
+.chapterboxone i{
+    color: rgb(18, 37, 106);
+    font-size: 40px;
+    margin-top: 10px;
+}
+.chapterheading{
+    font-size: 0.9rem;
+}
+.joinbutton{
+    padding: 7px 13px;
+    font-size: 1.5rem;
+    background: rgb(18, 37, 106);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid rgb(206, 206, 206);
+    transition: 0.4s;
+}
+.joinbutton:hover{
+    background: white;
+    color: rgb(18, 37, 106);
+    transform: scale(1.05);
+}
+.joinbuttonone{
+    padding: 7px 13px;
+    font-size: 1.2rem;
+    width: 80%;
+    background: rgb(18, 37, 106);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    border: 1px solid rgb(206, 206, 206);
+    transition: 0.4s;
+    
+}
+.joinbuttonone:hover{
+    background: white;
+    color: rgb(18, 37, 106);
+    transform: scale(1.05);
+}
+@media (max-width:1000px) {
+    .chaptersection{
+        grid-template-columns: 1fr;
+    }
+    .chapterbox{
+        width: 50%;
+    }
+    .chapterboxone{
+        width: 50%;
+    }
+    
+}
+@media (max-width:1167px) {
+    nav ul li a{
+        font-size: 14px;
+        padding: 5px 9px;
+    }
+    nav ul li{
+        margin-right: 0px;
+    }
+    label.logo{
+        margin-left: 2%;
+        font-size: 28px;
+    }
+    
+}
+@media (max-width:750px) {
+    .chapterbox{
+        width: 65%;
+    }
+    .chapterboxone{
+        width: 65%;
+    }
+}
