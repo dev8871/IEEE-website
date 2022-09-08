@@ -11,6 +11,15 @@
     justify-items: center;
     margin-bottom: 20px;
 }
+h3{
+    margin: 30px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(18, 37, 106);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
 .workshoppara{
     border-left: 5px solid rgb(18, 37, 106);
     width: 90vw;
@@ -23,6 +32,18 @@
     margin-left: 30px;
     
 }
+.list{
+    display: block;
+    width: 80vw;
+    background: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding: 0%;
+    height: auto;
+}
+
 #bold{
     font-weight: bold;
 }
