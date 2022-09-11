@@ -1,25 +1,8 @@
 
-header{
-    background-color: black;
-}
-nav{
-   background: rgb(18, 37, 106);
-   height: 11vh;
-   display: inline-block;
-}
-label.logo{
-   color: white;
-   font-size: 31px;
-   line-height: 80px;
-   padding-left: 3%;
-   font-family: 'Varela Round', sans-serif;
-   font-weight: bold;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-}
+
 .container {
    /* border: solid 1px #ff0000; */
-   zoom: 1; /* IE6&7 */
+   zoom: 1; 
 }
 
 
@@ -50,6 +33,7 @@ label.logo{
 .team{
    display: flex;
    flex-wrap: wrap;
+   justify-items: center;
    justify-content: space-between;
    align-content: space-between;
    flex-direction: row;
@@ -61,12 +45,12 @@ label.logo{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   width: 150px;
-   height: 300px;
+   padding: 20px 30px;
    gap: 2px;
+   border-radius: 8px;
    justify-content: center;
    align-items: center;
-   background-color: rgb(245, 242, 242);
+   background-color: rgb(248, 242, 242);
    margin: 10px;
    /* border: 1px solid black; */
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -78,6 +62,8 @@ label.logo{
 }
 .text{
    background-color: rgb(18, 37, 106);
+   font-family: 'Varela Round', sans-serif;
+   color: white;
    width: 130px;
    height: auto;
    border-radius: 5%;
@@ -106,6 +92,8 @@ label.logo{
    font-size: 0.63em;
    text-align: center;
 }
+
+
 @media(max-width: 600px){
    .team{
       display: flex;
@@ -144,7 +132,7 @@ label.logo{
       padding-left: 15px;
    }
    .text{
-      background-color: black;
+      background-color: rgb(18, 37, 106);
       width: 87%;
       height: auto;
    }
