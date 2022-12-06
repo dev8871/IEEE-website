@@ -6,12 +6,14 @@ nav{
 }
 label.logo{
     color: white;
-    font-size: 40px;
+    font-size: 31px;
     line-height: 80px;
     padding-left: 3%;
     font-family: 'Varela Round', sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
+    
+
+    font-weight: bold;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 @media (max-width:927px){
@@ -68,7 +70,7 @@ main h1{
     justify-items: center;
     align-items: center;
     width: 30vw;
-    height: 30vh;
+    height: 35vh;
     border: 1px solid rgb(206, 206, 206);
     border-radius: 3px;
     text-align: center;
@@ -84,7 +86,7 @@ main h1{
     display: grid;
     margin-bottom: 60px;
     width: 30vw;
-    height: 30vh;
+    height: 35vh;
     border: 1px solid rgb(206, 206, 206);
     border-radius: 3px;
     text-align: center;
@@ -97,10 +99,11 @@ main h1{
 }
 .chapterheading{
     font-size: 0.9rem;
+    width: 90%;
 }
 .joinbutton{
     padding: 7px 13px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     background: rgb(18, 37, 106);
     margin-left: auto;
     margin-right: auto;
@@ -108,12 +111,12 @@ main h1{
     border-radius: 5px;
     font-family: 'Varela Round', sans-serif;
     border: 1px solid rgb(206, 206, 206);
-    transition: 0.3s;
+    transition: 0.4s;
 }
 .joinbutton:hover{
     background: white;
     color: rgb(18, 37, 106);
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 .joinbuttonone{
     padding: 7px 13px;
@@ -126,13 +129,13 @@ main h1{
     border-radius: 5px;
     font-family: 'Varela Round', sans-serif;
     border: 1px solid rgb(206, 206, 206);
-    transition: 0.3s;
+    transition: 0.4s;
     
 }
 .joinbuttonone:hover{
     background: white;
     color: rgb(18, 37, 106);
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 @media (max-width:1000px) {
     .chaptersection{

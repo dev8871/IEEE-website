@@ -11,15 +11,6 @@
     justify-items: center;
     margin-bottom: 20px;
 }
-h3{
-    margin: 30px;
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: rgb(18, 37, 106);
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-    padding-top: 10px;
-}
 .workshoppara{
     border-left: 5px solid rgb(18, 37, 106);
     width: 90vw;
@@ -32,28 +23,8 @@ h3{
     margin-left: 30px;
     
 }
-.list{
-    display: block;
-    width: 80vw;
-    background: none;
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    padding: 0%;
-    height: auto;
-}
-
 #bold{
     font-weight: bold;
-}
-#heading{
-    font-size: 1.5rem;
-    font-weight: 500;
-    background: rgb(18, 37, 106);
-    padding: 7px 13px;
-    color: white;
-    border-radius: 5px;
 }
 #greytext{
     color: rgb(177, 177, 177);
@@ -61,15 +32,11 @@ h3{
     font-weight: 400;
     letter-spacing: 0.5px;
 }
-.recentEventsToggle{
-    display: grid;
-    grid-column-gap: 50px;
-    grid-template-columns: 2fr 2fr ;
-}
 .nextbutton{
+    margin-left: auto;
+    margin-right: 10vw;
     font-size: 0.8rem;
     padding: 7px 13px;
-    text-align: center;
     background: rgb(18, 37, 106);
     color: white;
     border-radius: 5px;
@@ -82,13 +49,11 @@ h3{
     background: white;
     color: rgb(18, 37, 106);
 }
-
 @media (max-width:1100px) {
     .workshopimage img{
         width: 65vw;
         height: 39vw;
     }
-    
 }
 @media (max-width:800px) {
     .workshopimage img{
@@ -96,20 +61,9 @@ h3{
         height: 42vw;
     }
 }
-
-@media (max-width:670px) {
-    .recentEventsToggle{
-        grid-column-gap: 30px;
-    }
-    
-}
-@media (max-width:510px) {
+@media (max-width:500px) {
     .workshopimage img{
         width: 80vw;
         height: 48vw;
     }
-    .recentEventsToggle{
-        grid-column-gap: 10px;
-    }
-    
 }
